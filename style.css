@@ -1,0 +1,123 @@
+body {
+	background-color: #ecdfc8;
+	color: rgb(30, 30, 30);
+	font-family: 'Josefin Slab', serif;
+	font-size: 19px;
+	text-align: center;
+	
+}	
+h1, h2 {
+	font-family: 'Montserrat', sans-serif;
+}	
+h1  {
+	color: black;
+	font-weight: 400;
+	letter-spacing: 6px;
+	font-size: 60px;
+}	
+
+h2 {
+	color: #DF7861;
+	font-size: 30px;
+	font-weight: lighter;
+	font-weight: 400;
+}
+
+a {
+   font-family: 'Montserrat', sans-serif;
+   text-decoration: none;
+   color: #DF7861;
+   font-size: 16px;
+}
+
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+
+@media (max-width: 960px) {
+  
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  
+  .container {
+    width: 300px;
+  }
+}
+
+
+.white-card {
+	background-color: white;
+	padding: 30px;
+	border-radius: 4px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+	margin: 30px 0px;
+	text-align: center;
+}
+
+.img-circle {
+	border-radius: 50%;
+	width: 250px;
+}
+
+.btn-orange {
+	background-color: #F8B195;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+
+.btn-orange:hover {
+	background-color: #FF5151;
+	color: white;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 0px 20px;
+}
+
+.list-inline i {
+	font-size: 60px;
+}
+
+.list-inline i:hover {
+	color: #FF5151;
+}
+
+.Thaïlande {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+}
+
+#introduction p {
+	margin-bottom: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
